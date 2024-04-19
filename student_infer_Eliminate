@@ -8,11 +8,7 @@ import csv
 
 model = AutoModelForSeq2SeqLM.from_pretrained('./t5-ft-et')
 tokenizer = AutoTokenizer.from_pretrained('./t5-ft-et')
-# tokenizer.pad_token = tokenizer.eos_token
-# tokenizer.pad_token_id = 50256
-# tokenizer.padding_side = 'left'
 device = torch.device('cuda' if torch.cuda.is_available else 'cpu')
-# # print(model.device)
 
 
 def generate_answer(test_samples, model):
