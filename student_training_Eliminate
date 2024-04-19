@@ -8,8 +8,8 @@ from datasets import load_dataset
 
 
 # your student model
-tokenizer = AutoTokenizer.from_pretrained("/home/jcyao/mrc_correction_llama/llama2_13b_t5_3b/t5-3b")
-model = AutoModelForSeq2SeqLM.from_pretrained("/home/jcyao/mrc_correction_llama/llama2_13b_t5_3b/t5-3b")
+tokenizer = AutoTokenizer.from_pretrained("./t5-3b")
+model = AutoModelForSeq2SeqLM.from_pretrained("./t5-3b")
 
 max_input_length = 2048
 max_target_length = 1024
