@@ -27,3 +27,14 @@ The code in this repository follows a three-step workflow:
 3. **Student Model Inference**  
    - **File:** `student_infer.py`  
    - **Description:** After training, the student model can be used for inference on new MMRC tasks. This script demonstrates how to perform metacognitive reasoning using the trained student model.
+
+## Citation
+Our Paper is accepted to Knowledge-Based Systems, you may cite:
+@article{yao2025metacognitive,
+  title={Metacognitive symbolic distillation framework for multi-choice machine reading comprehension},
+  author={Yao, Jiacheng and Xu, Xin and He, Guoxiu},
+  journal={Knowledge-Based Systems},
+  pages={113130},
+  year={2025},
+  publisher={Elsevier}
+}
