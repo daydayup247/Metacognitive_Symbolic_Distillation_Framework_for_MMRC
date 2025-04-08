@@ -30,6 +30,8 @@ The code in this repository follows a three-step workflow:
 
 ## Citation
 Our Paper is accepted to Knowledge-Based Systems, you may cite:
+
+```bibtex
 @article{yao2025metacognitive,
   title={Metacognitive symbolic distillation framework for multi-choice machine reading comprehension},
   author={Yao, Jiacheng and Xu, Xin and He, Guoxiu},
